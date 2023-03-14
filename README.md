@@ -6,4 +6,11 @@
 - documentation 
 - deployment.
 
-Course by cloud.getdbt.com
+## Jinja, Macros and Packages
+
+- jinja based quieries
+- developing own macros
+- using macros from packages
+
+
+Courses by cloud.getdbt.com

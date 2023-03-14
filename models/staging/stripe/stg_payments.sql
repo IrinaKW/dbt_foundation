@@ -9,8 +9,7 @@ select
     paymentmethod as payment_method,
     status,
     -- convert cents value into dollar value
-    amount/100 as amount,
+    {{ cents_to_dollars('amount')}} as amount,
     created as created_at
     
 from source
-
